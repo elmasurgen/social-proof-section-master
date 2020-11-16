@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+
+:root{
+    --v-d-m: hsl(300, 43%, 22%);
+    --s-p: hsl(333, 80%, 67%);   
+   --d-g-m: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White:hsl(0, 0%, 100%);
+      --gri:#f7f2f893;
+
+}
+
+
+.container{
+    margin-top: 150px;
+    
+}
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+  
+
+}
+
+h1,strong{
+    color: var(--v-d-m);
+
+
+}
+
+strong{
+    margin-left: 10px;
+}
+
+.fa-star{
+    color:rgb(247, 150, 33);
+
+}
+
+.star{
+display: flex;
+margin: 20px;
+background-color: var(--gri);
+border-radius: 10px;
+}
+#ikinci{
+  
+    position: relative;
+    left: 30px;
+}
+#ucuncu{
+  
+    position: relative;
+    left: 60px;
+}
+.card{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: var(--v-d-m);
+    height: 200px;
+
+}
+.card-left{
+    display: flex;
+}
+.card-right{
+    display: flex;
+  flex-direction: column-reverse;
+    justify-content:center;
+    
+}
+.isim{
+    padding-left: 20px;
+    color: white;
+}
+.acıklama{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.irene{
+
+    margin-top: 30px;
+
+}
+.anne{
+margin-top: 60px;
+}
